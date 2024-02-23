@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteActivity"
+    android:orientation="vertical"
+    android:layout_margin="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="231dp"
+            android:src="@drawable/capture1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BMI"
+            android:textColor="#E91E63"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTextTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حاسبة الوزن المثالي"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تقوم حاسبة الوزن المثالي بحساب الوزن المثالي حسب الطول والعمر أو كما يعرف معادلة الوزن المثالي للطول أو الوزن المناسب للطول أو حساب الوزن الصحي ومن أجل القيام بهذه العملية يجب عليك معرفة وزنك من خلال قياس الوزن ومعرفة طولك من خلال قياس الطول الخاص بك، وتقوم حاسبة الوزن المثالي لكل طول بشكل الكتروني بعملية قياس كتلة الجسم الخاص بك واعطاؤك معلومات عن الوزن المثالي الذي يجب ان تسعى إلى تحقيقه وذلك عن طريق تخسيس الوزن اذا كان وزنك زائد أو عن طريق زيادة الوزن اذا كنت تعاني من نقص حاد في الوزن وذلك لكي تحصل على الجسم المثالي الذي سوف يشعرك بالراحة النفسية ويقيك من الأمراض التي تسببها السمنة.  ولنلخص ما سبق فأن قياس الوزن المثالي للرجل أو للمرأة يعتمد بالأساس على قياس BMI الذي يعرف بالعربية مؤشر كتلة الجسم، ويتم قياس هذا المؤشر عن طريق العلاقة بين الوزن والطول، ولتحصل على مؤشر كتلة جسمك أولاً احسب وزنك ثم ثانياً احسب طولك وقم بالعملية الحسابية التي وضحناها لك سابقاً أو استخدم موقعنا لقياس BMI الخاص بك." />
+
+</LinearLayout>

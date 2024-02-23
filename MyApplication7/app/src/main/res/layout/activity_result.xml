@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+        <TextView
+            android:id="@+id/textViewWazn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الوزن: " />
+
+        <TextView
+            android:id="@+id/textViewtoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الطول: " />
+
+        <TextView
+            android:id="@+id/textViewbmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مؤشر كتلة الجسم BMI هو: " />
+
+        <TextView
+            android:id="@+id/textViewNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سمنة مفرطة جداً سمنة مفرطة جداً سمنة مفرطة جداً سمنة مفرطة جداً "
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickNo9sWazn"
+                    android:text="طريقة انقاص الوزن" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickZiedetWazn"
+                    android:text="طريقة زيادة الوزن" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick2"
+            android:text="القيام بعملية اخرى" />
+
+</LinearLayout>
